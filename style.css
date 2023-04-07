@@ -67,7 +67,6 @@ h6 {
 }
 
 
-
 body {
     font-family: 'Manrope', sans-serif;
     line-height: 1.5;
@@ -85,6 +84,14 @@ body {
     top: 0;
     width: 100%;
     padding: 20px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 20px 0 0 0;
+    }
+
+
 }
 
 .container {
@@ -119,6 +126,22 @@ body {
     font-size: 16px;
     color: #0A2640;
     position: relative;
+}
+
+.log-in {
+    display: inline-block;
+    padding: 8px 30px;
+    border: 2px solid #0A2640;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    color: #0A2640;
+    text-decoration: none;
+
+}
+
+.log-in:hover {
+    background-color: #0A2640;
+    color: #fff;
 }
 
 /* Стили для ссылки */
@@ -532,9 +555,9 @@ body {
     padding: 16px 56px;
     border: 2px solid #0A2640;
     border-radius: 50px;
+    transition: all 0.3s ease;
     color: #0A2640;
     text-decoration: none;
-    transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 638px) {
@@ -681,6 +704,7 @@ body {
         margin-bottom: 5px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .grid-item__logo {
         grid-row: 4;
@@ -694,6 +718,7 @@ body {
     .grid-item__logo {
         padding-top: 20px;
     }
+
     .grid-item ul {
         max-height: 0;
         overflow: hidden;
@@ -705,7 +730,6 @@ body {
         background-color: #4FE9A4;
     }
 }
-
 
 
 .show {
